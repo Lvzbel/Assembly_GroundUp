@@ -8,9 +8,19 @@ Note: that the argument --gstabs+ is so we can later debug with gdb
 
 >ld -m elf_i386 -o filename filename.o
 
+I also included a simple bash script that compiles the file with the --gstabs option for debugging
+
+the compile.sh takes two arguments the file name with no extension, and the folder location
+
+>./compile.sh filename locatio/
+
 Example for chapter 4
 
 >as --gstabs+ --32 -o power.o power.s
 
 >ld -m elf_i386 -o power power.o
+
+Compiling with the script 
+
+>./compile power Chapter4
 
