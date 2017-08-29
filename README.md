@@ -22,5 +22,5 @@ Example for chapter 4
 
 Compiling with the script 
 
->./compile.sh power Chapter4
+>./compile.sh power Chapter4/
 
