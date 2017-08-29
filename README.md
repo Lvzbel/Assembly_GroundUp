@@ -10,9 +10,9 @@ Note: that the argument --gstabs+ is so we can later debug with gdb
 
 I also included a simple bash script that compiles the file with the --gstabs option for debugging
 
-the compile.sh takes two arguments the file name with no extension, and the folder location
+compile.sh takes two arguments the file name with no extension, and the folder location
 
->./compile.sh filename locatio/
+>./compile.sh filename location/
 
 Example for chapter 4
 
@@ -22,5 +22,5 @@ Example for chapter 4
 
 Compiling with the script 
 
->./compile power Chapter4
+>./compile.sh power Chapter4
 
